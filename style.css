@@ -127,3 +127,21 @@
     margin: 20px auto;
     cursor: pointer;
 }
+@media (max-width:800px) {
+    .container{
+        width: 330px;
+        height: auto;
+        background-image: linear-gradient(to bottom,hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .container2{
+        width: 330px;
+        height: auto;
+        background-image: linear-gradient(to bottom,hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
