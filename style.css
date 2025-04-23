@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.parent2{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    display: none;
+}
+.container{
+    width: 450px;
+    height: auto;
+    background-image: linear-gradient(to bottom,hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.container2{
+    width: 450px;
+    height: auto;
+    background-image: linear-gradient(to bottom,hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.container .p1{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color:hsl(213, 19%, 18%) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 30px;
+}
+.container2 .p2{
+    margin: 30px 30px;
+}
+.container h1{
+    color: hsl(0, 100%, 100%);
+    margin: 0px 30px;
+}
+.container2 h1{
+    color: hsl(25, 97%, 60%);
+    font-size: 16px;
+    background-color: hsl(213, 19%, 18%);
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container2 h2{
+    color: hsl(0, 100%, 100%);
+    font-size: 26px;
+    margin: 30px 0px;
+}
+.container p{
+    color: hsl(217, 12%, 63%);
+    margin: 10px 30px;
+    line-height: 25px;
+}
+.container2 p{
+    color: hsl(217, 12%, 63%);
+    margin: 0px 30px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.rating-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+.rating-buttons span {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.rating-buttons span:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+.rating-buttons span.selected {
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(216, 12%, 8%);
+}
+.container button{
+    width: 85%;
+    height: 50px;
+    background-color:hsl(25, 97%, 53%) ;
+    font-weight: 700;
+    color: hsl(216, 12%, 8%);
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin: 20px auto;
+    cursor: pointer;
+}
